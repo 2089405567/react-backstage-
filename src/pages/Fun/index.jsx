@@ -2,8 +2,6 @@ import React from 'react';
 // 引入样式
 import style from './index.module.scss'
 function Index () {
-
-
   // 创建 容器
   const myRef = React.useRef();
   const [count, setCount] = React.useState(0);
